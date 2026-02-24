@@ -4,7 +4,7 @@ include 'koneksi.php';
 if (isset($_GET['id'])) {
     $id_warga = mysqli_real_escape_string($koneksi, $_GET['id']);
 
-    // Proses Hapus - Hapus data warga berdasarkan id_warga
+    // Proses Hapus - PERBAIKAN: Hapus data warga, bukan data_kk
     $query = "DELETE FROM data_warga WHERE id_warga = '$id_warga'";
     $hasil = mysqli_query($koneksi, $query);
 

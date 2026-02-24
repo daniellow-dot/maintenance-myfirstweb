@@ -1,0 +1,37 @@
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    .curved-text {
+      display: inline-block;
+      font-weight: 700;
+      font-size: 1.125rem; /* text-lg */
+      letter-spacing: 0.05em;
+      white-space: nowrap;
+      position: relative;
+      height: 2.5rem;
+      margin-top: 1rem;
+    }
+    .curved-text span {
+      display: inline-block;
+      position: relative;
+      transform-origin: bottom center;
+      /* Adjust vertical position for a smooth curve */
+      top: 0;
+    }
+    body {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .login-box {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+            width: 100%;
+            max-width: 400px;
+        }
