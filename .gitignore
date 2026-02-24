@@ -1,25 +1,66 @@
-# CakePHP 3
+# Database config (sensitive data)
+koneksi.php
 
-/vendor/*
-/config/app.php
+# Uploads
+uploads/
+uploads/*
+!uploads/.gitkeep
 
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
+# Database backups
+db/
+db/*
+!db/.gitkeep
 
-/logs/*
-!/logs/empty
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
 
-# CakePHP 2
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.netbeans/
 
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+# Logs
+*.log
+error_log
+access_log
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+.env.local
+.env.*.local
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Cache files
+*.cache
+.cache/
+
+# Session files
+sessions/
+sessions/*
+!sessions/.gitkeep
+
+# Composer (jika menggunakan)
+vendor/
+composer.lock
+
+# Node modules (jika menggunakan)
+node_modules/
+npm-debug.log
+
+# Testing
+tests/coverage/
